@@ -10,7 +10,7 @@ with open("brightest_stars.csv","r")as f:
         dataset_1.append(row)
 
 
-with open("merge.csv","r")as f:
+with open("brown_dwarf_stars.csv","r")as f:
     csv_reader = csv.reader(f)
     for row in csv_reader:
         dataset_2.append(row)
